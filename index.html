@@ -17,6 +17,149 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo-white.png" alt="Logo white" width="196" height="56">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav pixelify-medium">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#about">Acerca de mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header -->
+    <header></header>
+
+    <main class="container-fluid my-4 py-2">
+        <!-- about -->
+        <section class="container text-center" id="about">
+            <h3 class="display-4 fw-bold pixelify-medium mb-3">Acerca de mi</h3>
+            <p class="my-4">
+                Mi nombre es Alexis, soy un profesional del área de las tecnologías que se ha desempeñado en diferentes cargos, 
+                a lo largo de su carrera, tales como: Analista, Desarrollador, Consultar, y Jefe de Proyectos. Tengo experiencia 
+                en desarrollo de aplicaciones web y de escritorio, así como también en gestión de proyectos de desarrollo.
+            </p>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <i class="fa-solid fa-graduation-cap fa-3x my-3"></i>
+                    <h3 class="pixelify-medium my-3 fw-bold">Formación Académica</h3>
+                    <ul class="pixelify-light">
+                        <li>Desafiolatam (2024-presente)</li>
+                        <li>Instituto Profesional DuocUC (2014-2017)</li>
+                        <li>Colegio Oratorio Don Bosco (2000-2009)</li>
+                        <li>Colegio Villa España (1997-1999)</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6">
+                    <i class="fa-solid fa-briefcase fa-3x my-3"></i>
+                    <h3 class="pixelify-medium my-3 fw-bold">Experiencia Laboral</h3>
+                    <ul class="pixelify-light">
+                        <li>Buk (2021-2024)</li>
+                        <li>DBSolution (2019-2021)</li>
+                        <li>Methodus SpA (2017-2019)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    
+        <!-- portafolio -->
+        <section class="container" id="portfolio">
+            <h3 class="display-4 fw-bold pixelify-medium text-center mb-3">Portafolio</h3>
+            <div class="row justify-content-start pt-4">
+                <div class="col-md-4 mt-4 d-flex align-items-stretch">
+                    <div class="card border">
+                        <img src="./assets/img/desafio-cv.png" class="card-img-top" alt="Desafio CV">
+                        <div class="card-body pixelify-light">
+                            <p class="card-text custom-text-regular fs-4">Mi primer CV</p>
+                            <p class="mb-0 custom-text-light fs-5">Este desafio consistia en construir un Curriculum Vittae, utilizando únicamente HTML</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4 d-flex align-items-stretch">
+                    <div class="card border">
+                        <img src="./assets/img/desafio-landingpage.png" class="card-img-top" alt="Desafio Landing Page">
+                        <div class="card-body pixelify-light">
+                            <p class="card-text custom-text-regular fs-4">Mi primera Landing page</p>
+                            <p class="mb-0 custom-text-light fs-5">Este desafio consistia en construir una landing page, utilizando únicamente HTML y CSS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4 d-flex align-items-stretch">
+                    <div class="card border">
+                        <img src="./assets/img/desafio-iguanas.png" class="card-img-top" alt="Desafio Iguanas">
+                        <div class="card-body pixelify-light">
+                            <p class="card-text custom-text-regular fs-4">Iguana Page</p>
+                            <p class="mb-0 custom-text-light fs-5">Este desafio consistia en construir una landing page, esta vez teniendo una maqueta de referencia,
+                                e incorporando el uso de Flex
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4 d-flex align-items-stretch">
+                    <div class="card border">
+                        <img src="./assets/img/desafio-cuppon.png" class="card-img-top" alt="Desafio Cuppon">
+                        <div class="card-body pixelify-light">
+                            <p class="card-text custom-text-regular fs-4">Cuppon</p>
+                            <p class="mb-0 custom-text-light fs-5">Este desafio consistia en construir una página de cupones, teniendo una maqueta de referencia, 
+                                e incorporando el uso del Bootstrap
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4 d-flex align-items-stretch">
+                    <div class="card border">
+                        <img src="./assets/img/desafio-github.png" class="card-img-top" alt="Desafio Github">
+                        <div class="card-body pixelify-light">
+                            <p class="card-text custom-text-regular fs-4">Mi primer repositorio en Github</p>
+                            <p class="mb-0 custom-text-light fs-5">Este desafio consistia hacer fork de un repeositorio de Github, para luego realizar 
+                                al menos 5 cambios, y disponibilizar el resultado en un nuevo repositorio
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- contacto -->
+    <section class="text-center py-4 text-white" id="contact">
+        <h3 class="display-4 fw-bold pixelify-medium text-center mb-3">Contáctame</h3>
+        <form class="container pixelify-light">
+            <div class="form-group mb-3">
+                <input type="text" class="form-control" id="inputName" placeholder="Nombre">
+            </div>
+            <div class="form-group mb-3">
+                <input type="email" class="form-control" id="inputEmail1" placeholder="Correo Electrónico">
+            </div>
+            <div class="form-group mb-3">
+                <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-light">Enviar</button>
+        </form>
+    </section>
+
+    <!-- footer -->
+    <footer class="container text-center py-4">
+        <figure class="mb-1">
+            <img src="./assets/img/logo-black.png" alt="Logo black" width="256" height="92">
+        </figure>
+        <p class="pixelify-light custom-text-light">© 2024 0x000alek. Todos los derechos reservados.</p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 

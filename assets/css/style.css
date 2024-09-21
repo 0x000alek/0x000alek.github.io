@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+.pixelify-light {
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.pixelify-medium {
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.custom-text-regular {
+    color: #212529;
+    opacity: 1;
+}
+
+.custom-text-light {
+    color: #707070;
+    opacity: 1;
+}
+
+.form-control::placeholder {
+    color: #707070;
+    opacity: 1;
+}
+
+nav {
+    background-color: rgba(36, 36, 40, 0.8);
+}
+
+header {
+    position: relative;
+    height: 18em;
+    padding: 2em;
+    font-size: 2em;;
+}
+
+header::before {
+    content: "";
+    background-image: url("../img/headline-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#portfolio {
+    margin-top: 5%;
+}
+
+#contact {
+    background-image: url("../img/headline-bg.jpg");
+    opacity: 0.8;
+}
